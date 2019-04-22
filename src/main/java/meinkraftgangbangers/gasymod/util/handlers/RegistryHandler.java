@@ -1,7 +1,7 @@
-package meinkraftgangbangers.testmod.util.handlers;
+package meinkraftgangbangers.gasymod.util.handlers;
 
-import meinkraftgangbangers.testmod.init.ModItems;
-import meinkraftgangbangers.testmod.util.IHasModel;
+import meinkraftgangbangers.gasymod.init.ModItems;
+import meinkraftgangbangers.gasymod.util.IHasModel;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;

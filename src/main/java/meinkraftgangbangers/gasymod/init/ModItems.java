@@ -1,6 +1,6 @@
-package meinkraftgangbangers.testmod.init;
+package meinkraftgangbangers.gasymod.init;
 
-import meinkraftgangbangers.testmod.items.ItemBase;
+import meinkraftgangbangers.gasymod.items.ItemBase;
 import net.minecraft.item.Item;
 
 import java.util.ArrayList;
