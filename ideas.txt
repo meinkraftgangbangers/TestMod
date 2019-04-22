@@ -1,0 +1,3 @@
+gasy ore - drops multiple gasy
+gasy tools
+gasy food if cooked (fill half of hunger)

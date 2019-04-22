@@ -1,8 +1,8 @@
-package meinkraftgangbangers.testmod.items;
+package meinkraftgangbangers.gasymod.items;
 
-import meinkraftgangbangers.testmod.Main;
-import meinkraftgangbangers.testmod.init.ModItems;
-import meinkraftgangbangers.testmod.util.IHasModel;
+import meinkraftgangbangers.gasymod.Main;
+import meinkraftgangbangers.gasymod.init.ModItems;
+import meinkraftgangbangers.gasymod.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

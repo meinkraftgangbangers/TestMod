@@ -1,4 +1,4 @@
-package meinkraftgangbangers.testmod.util;
+package meinkraftgangbangers.gasymod.util;
 
 public interface IHasModel {
 
