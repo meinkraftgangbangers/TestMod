@@ -1,4 +1,4 @@
-package meinkraftgangbangers.testmod.proxy;
+package meinkraftgangbangers.gasymod.proxy;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;

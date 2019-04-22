@@ -1,7 +1,7 @@
-package meinkraftgangbangers.testmod;
+package meinkraftgangbangers.gasymod;
 
-import meinkraftgangbangers.testmod.proxy.CommonProxy;
-import meinkraftgangbangers.testmod.util.Reference;
+import meinkraftgangbangers.gasymod.proxy.CommonProxy;
+import meinkraftgangbangers.gasymod.util.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
