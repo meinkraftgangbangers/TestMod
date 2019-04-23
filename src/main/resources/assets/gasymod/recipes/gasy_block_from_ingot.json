@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+
+  "key": {
+    "I": {
+      "item": "gasymod:gasy_ingot"
+    }
+  },
+
+  "result": {
+    "item": "gasymod:gasy_block",
+    "count": 1
+  }
+}
