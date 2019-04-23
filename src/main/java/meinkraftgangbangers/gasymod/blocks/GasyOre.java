@@ -20,7 +20,6 @@ public class GasyOre extends BlockBase {
         setHardness(5.0F);
         setResistance(60.0F);
         setHarvestLevel("pickaxe", 2);
-        setLightLevel(0.1F);
     }
 
     @Override

@@ -12,6 +12,6 @@ public class GasyBlock extends BlockBase {
         setHardness(8.0F);
         setResistance(600.0F);
         setHarvestLevel("pickaxe", 2);
-        setLightLevel(0.1F);
+        setLightLevel(0.3F);
     }
 }
