@@ -1,1 +1,7 @@
+//Items
 item.gasy.name=Gasy
+item.gasy_ingot.name=Gasy Ingot
+
+//Blocks
+tile.gasy_ore.name=Gasy Ore
+tile.gasy_block.name=Block of Gasy
