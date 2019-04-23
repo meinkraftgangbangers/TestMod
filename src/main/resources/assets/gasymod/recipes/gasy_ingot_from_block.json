@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [
+    {
+      "item": "gasymod:gasy_block"
+    }
+  ],
+
+  "result": {
+    "item": "gasymod:gasy_ingot",
+    "count": 9
+  }
+}

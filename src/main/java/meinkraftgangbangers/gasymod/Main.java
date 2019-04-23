@@ -1,5 +1,6 @@
 package meinkraftgangbangers.gasymod;
 
+import meinkraftgangbangers.gasymod.init.ModRecipes;
 import meinkraftgangbangers.gasymod.proxy.CommonProxy;
 import meinkraftgangbangers.gasymod.util.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -26,7 +27,7 @@ public class Main {
 
     @EventHandler
     public static void init(FMLInitializationEvent event) {
-
+        ModRecipes.init();
     }
 
     @EventHandler
