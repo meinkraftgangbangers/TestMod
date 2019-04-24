@@ -13,4 +13,5 @@ public class ModItems {
 
     public static final Item GASY = new ItemBase("gasy", CreativeTabs.MATERIALS);
     public static final Item GASY_INGOT = new ItemBase("gasy_ingot", CreativeTabs.MATERIALS);
+    public static final Item GASY_DUST = new ItemBase("gasy_dust", CreativeTabs.MATERIALS);
 }
