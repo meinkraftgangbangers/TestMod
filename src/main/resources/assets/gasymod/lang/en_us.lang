@@ -1,6 +1,7 @@
 //Items
 item.gasy.name=Gasy
 item.gasy_ingot.name=Gasy Ingot
+item.gasy_dust.name=Gasy Dust
 
 //Blocks
 tile.gasy_ore.name=Gasy Ore
