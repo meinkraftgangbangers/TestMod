@@ -4,10 +4,7 @@ import meinkraftgangbangers.gasymod.init.ModItems;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.item.EntityXPOrb;
 import net.minecraft.item.Item;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
 
 import java.util.Random;
 
@@ -28,10 +25,19 @@ public class GasyOre extends BlockBase {
     }
 
     @Override
-    public int quantityDropped(Random rand) {
-        int[] values = {1, 2, 2, 2, 2, 3, 3, 3, 4, 0};
-
-        return values[rand.nextInt(values.length - 1)];
+    public int quantityDroppedWithBonus(int fortune, Random rand) {
+        if (fortune > 0) {
+            int r = rand.nextInt(fortune) + fortune;
+            return quantityDropped(rand) + r;
+        }
+        else {
+            return quantityDropped(rand);
+        }
     }
 
+    @Override
+    public int quantityDropped(Random rand) {
+        int[] values = {1, 2, 2, 2, 2, 3, 3};
+        return values[rand.nextInt(values.length)];
+    }
 }
