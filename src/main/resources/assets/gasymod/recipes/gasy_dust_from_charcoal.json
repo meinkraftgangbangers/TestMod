@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [
+
+    {
+      "item": "gasymod:gasy"
+    },
+
+    {
+      "item": "minecraft:coal",
+      "data": 1
+    }
+
+  ],
+
+  "result": {
+    "item": "gasymod:gasy_dust",
+    "count": 2
+  }
+}
