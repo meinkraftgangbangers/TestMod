@@ -18,7 +18,7 @@ public class ModItems {
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
     //Materials
-    public static final Item.ToolMaterial MATERIAL_GASY = EnumHelper.addToolMaterial("material_gasy", 3, 250, 8.0F, 1.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_GASY = EnumHelper.addToolMaterial("material_gasy", 2, 310, 9.5F, 2.5F, 10);
 
     //Items
     public static final Item GASY = new ItemBase("gasy", CreativeTabs.MATERIALS);
