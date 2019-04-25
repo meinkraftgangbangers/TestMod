@@ -40,27 +40,21 @@ public class GasyOre extends BlockBase {
         else {
             return this.quantityDropped(rand);
         }
-
-        /*if (fortune > 0) {
-            int r = rand.nextInt(fortune) + fortune;
-            return quantityDropped(rand) + r;
-        }
-        else {
-            return quantityDropped(rand);
-        }*/
     }
 
     @Override
     public int quantityDropped(Random rand) {
-        /*int[] values = {1, 2, 2, 2, 2, 3, 3};
-        return values[rand.nextInt(values.length)];*/
         return 1 + rand.nextInt(2);
     }
 
     @Override
     public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune) {
         Random rand = new Random();
-        //THE RETURN VALUE IS HOW MANY XP ORBS IT WILL DROP WHEN THE BLOCK IS BROKEN.
-        return rand.nextInt(3) + 1;
+        int i = rand.nextInt(fortune + 2) - 1;
+
+        if (i < 0) {
+            i = 0;
+        }
+        return rand.nextInt(3) * (i + 1) ;
     }
 }
