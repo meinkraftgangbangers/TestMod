@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    " I ",
+    " A ",
+    " A "
+  ],
+
+  "key": {
+    "I": {
+      "item": "gasymod:gasy_ingot"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result": {
+    "item": "gasymod:gasy_shovel"
+  }
+}

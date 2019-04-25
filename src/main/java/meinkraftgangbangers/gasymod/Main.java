@@ -1,5 +1,6 @@
 package meinkraftgangbangers.gasymod;
 
+import meinkraftgangbangers.gasymod.init.ModItems;
 import meinkraftgangbangers.gasymod.init.ModRecipes;
 import meinkraftgangbangers.gasymod.proxy.CommonProxy;
 import meinkraftgangbangers.gasymod.util.Reference;
@@ -30,6 +31,7 @@ public class Main {
     @EventHandler
     public static void init(FMLInitializationEvent event) {
         ModRecipes.init();
+        ModItems.init();
     }
 
     @EventHandler
