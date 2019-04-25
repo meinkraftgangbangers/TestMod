@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "III",
+    " A ",
+    " A "
+  ],
+
+  "key": {
+    "I": {
+      "item": "gasymod:gasy_ingot"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result": {
+    "item": "gasymod:gasy_pickaxe",
+    "count": 1
+  }
+}

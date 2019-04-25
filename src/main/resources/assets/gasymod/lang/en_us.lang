@@ -3,6 +3,12 @@ item.gasy.name=Gasy
 item.gasy_ingot.name=Gasy Ingot
 item.gasy_dust.name=Gasy Dust
 
+//Tools
+item.gasy_pickaxe.name=Gasy Pickaxe
+item.gasy_sword.name=Gasy Sword
+item.gasy_shovel.name=Gasy Shovel
+item.gasy_axe.name=Gasy Axe
+
 //Blocks
 tile.gasy_ore.name=Gasy Ore
 tile.gasy_block.name=Block of Gasy
